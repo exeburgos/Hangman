@@ -36,8 +36,8 @@ while True:
                 print("No such letter in the word")
                 lifes += 1
 
-            if "".join(hidden) == correct_word:
-                print(f"You guessed the word {correct_word}!")
+            if "".join(hidden) == "".join(correct_word):
+                print(f'You guessed the word {"".join(correct_word)}!')
                 print("You survived!\n")
                 break
         else:
